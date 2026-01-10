@@ -93,15 +93,7 @@ const Navbar = () => {
           </div>
 
           {/* CTA Button */}
-          <div className="hidden lg:flex items-center gap-4">
-            <Button variant="heroOutline" size="lg" asChild>
-              <a href="tel:+918767891520" className="flex items-center gap-2">
-                <Phone className="w-4 h-4" />
-                +91 8767891520
-              </a>
-            </Button>
-          </div>
-
+        
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
