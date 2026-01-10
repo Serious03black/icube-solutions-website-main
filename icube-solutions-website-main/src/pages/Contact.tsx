@@ -69,13 +69,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Phone",
-      value: "+91 8767891520",
-      href: "tel:+918767891520",
+      value: "+91 93092 95349",
+      href: "tel:+919309295349",
     },
     {
       icon: Mail,
       title: "Email",
-      value: "info@icubesolution.in",
+      value: "icubesolution@gmail.in",
       href: "mailto:info@icubesolution.in",
     },
     {

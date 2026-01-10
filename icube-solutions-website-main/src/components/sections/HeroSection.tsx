@@ -78,7 +78,7 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-10 leading-relaxed"
           >
-            iCube Solution helps startups and enterprises build scalable software, 
+            iCube it helps startups and enterprises build scalable software, 
             websites, and automation systems. From Nashik to the world — delivering 
             excellence in technology.
           </motion.p>
@@ -96,12 +96,7 @@ const HeroSection = () => {
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
-            <Button variant="heroOutline" size="xl" asChild>
-              <a href="tel:+918767891520">
-                <Phone className="w-5 h-5" />
-                +91 8767891520
-              </a>
-            </Button>
+          
           </motion.div>
 
           {/* Service Cards */}

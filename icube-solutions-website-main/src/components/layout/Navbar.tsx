@@ -153,10 +153,7 @@ const Navbar = () => {
                 className="pt-4"
               >
                 <Button variant="hero" size="lg" className="w-full" asChild>
-                  <a href="tel:+918767891520" className="flex items-center justify-center gap-2">
-                    <Phone className="w-4 h-4" />
-                    +91 8767891520
-                  </a>
+               
                 </Button>
               </motion.div>
             </div>
