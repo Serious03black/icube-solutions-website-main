@@ -75,8 +75,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      value: "icubesolution@gmail.in",
-      href: "mailto:info@icubesolution.in",
+      value: "icube.info.sol@gmail.com",
+      href: "mailto:icube.info.sol@gmail.com",
     },
     {
       icon: Clock,
