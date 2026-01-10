@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-
+import logo from "../../../public/logo.png"; 
 const navLinks = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
@@ -48,9 +48,8 @@ const Navbar = () => {
               whileTap={{ scale: 0.95 }}
               className="flex items-center gap-3"
             >
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary via-accent to-primary flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-xl">i³</span>
-              </div>
+                <img src={logo} className=" " height='13%' width="13%"/>
+              
               <div className="flex flex-col">
                 <span className="font-display font-bold text-lg text-foreground">
                   iCube Solution
