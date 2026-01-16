@@ -176,7 +176,7 @@ const Contact = () => {
                       )}
                     </div>
 
-                    <div>
+                    {/* <div>
                       <label htmlFor="phone" className="block text-sm font-medium text-foreground mb-2">
                         Phone Number
                       </label>
@@ -194,7 +194,7 @@ const Contact = () => {
                       {errors.phone && (
                         <p className="text-destructive text-sm mt-1">{errors.phone}</p>
                       )}
-                    </div>
+                    </div> */}
 
                     <div>
                       <label htmlFor="message" className="block text-sm font-medium text-foreground mb-2">
@@ -309,7 +309,7 @@ const Contact = () => {
                 </div>
 
                 {/* Quick Actions */}
-                <div className="flex flex-col sm:flex-row gap-4">
+                {/* <div className="flex flex-col sm:flex-row gap-4">
                   <Button variant="hero" size="lg" className="flex-1" asChild>
                     <a href="tel:+918767891520">
                       <Phone className="w-5 h-5" />
@@ -326,7 +326,7 @@ const Contact = () => {
                       WhatsApp
                     </a>
                   </Button>
-                </div>
+                </div> */}
               </motion.div>
             </div>
           </div>
