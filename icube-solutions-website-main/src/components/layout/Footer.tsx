@@ -56,13 +56,7 @@ const Footer = () => {
               Building smart digital solutions for growing businesses. Your trusted technology partner in Nashik and beyond.
             </p>
             <div className="flex flex-col gap-3">
-              <a
-                href="tel:+918767891520"
-                className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
-              >
-                <Phone className="w-4 h-4" />
-                +91 8767891520
-              </a>
+             
               <a
                 href="mailto:info@icubesolution.in"
                 className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors text-sm"
